@@ -18,6 +18,4 @@ CREATE TABLE secciones (
     cedula_profesor INTEGER NOT NULL
 );
 
-CREATE INDEX indice_secciones_por_codigo_asignatura_lapso_cedula_profesor ON secciones (codigo_asignatura, lapso, cedula_profesor);
-
 COMMIT;
